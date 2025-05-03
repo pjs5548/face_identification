@@ -19,7 +19,7 @@ Ubuntu22.04 PC에서 아래 명령어를 통해 아래의 필수 패키지를 �
 
 1. deepinsight/python 폴더로 이동 후 다음 명령어 실행:
 
-    python3 gui.py --port xxxx
+    python3 face_registeration.py --port xxxx
 
     - xxxx는 9000~9999 사이의 포트 번호 (예: 9100)
 
@@ -41,7 +41,7 @@ Ubuntu22.04 PC에서 아래 명령어를 통해 아래의 필수 패키지를 �
 
 ## 4. 얼굴 인증 절차
 
-1. deepinsight/bin 폴더로 이동하여 다음 명령어 실행: ./face_identifiaction --cam 0 --port xxxx
+1. deepinsight/python 폴더로 이동하여 다음 명령어 실행: python3 face_identifiaction.py --cam 0 --port xxxx
     - --cam: 카메라 ID (예: 0)
     - --port: 9000~9999 사이의 포트 번호
 
