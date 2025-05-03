@@ -395,7 +395,7 @@ int main(int argc, char* argv[]) {
         return 1;
     }
 
-    // ✅ 쓰레드 실행
+    // 쓰레드 실행
     std::thread camThread(cameraThread, client_sock);
     std::thread detThread(faceDetectionThread, std::ref(det_sess));
     std::thread clsThread(saveEmbeddingsThread, std::ref(cls_sess), embedding_name);
@@ -409,29 +409,4 @@ int main(int argc, char* argv[]) {
     std::cout << "[INFO] All threads finished. Program exiting.\n";
     return 0;
 }
-
-
-// int main(int argc, char* argv[]) {
-//     signal(SIGINT, signalHandler);
-//     signal(SIGTERM, signalHandler);
-
-//     parseArgs(argc, argv);
-
-//     Ort::Env env(ORT_LOGGING_LEVEL_INFOING, "face-register-app");
-//     Ort::SessionOptions options;
-//     options.SetGraphOptimizationLevel(GraphOptimizationLevel::ORT_ENABLE_EXTENDED);
-
-//     Ort::Session det_sess(env, face_detection_model_path.c_str(), options);
-//     Ort::Session cls_sess(env, face_classification_model_path.c_str(), options);
-
-//     std::thread camThread(cameraThread);
-//     std::thread detThread(faceDetectionThread, std::ref(det_sess));
-//     std::thread clsThread(saveEmbeddingsThread, std::ref(cls_sess), embedding_name);  // ✅ 수정됨
-
-//     camThread.join();
-//     detThread.join();
-//     clsThread.join();
-
-//     return 0;
-// }
 
