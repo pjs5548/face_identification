@@ -19,9 +19,9 @@ Python 패키지 설치: pip install numpy==1.26.4 opencv-python==4.11.0 pyqt5==
 
 ---
 ## 2. 기본 설정
-1. 아래  링크에서 yolov8n.onnx와 recognition_resnet27.onnx 파일을 다운 받으세요
+1. 아래  링크에서 yolov8n_face.onnx와 recognition_resnet27.onnx 파일을 다운 받으세요
    - https://drive.google.com/drive/folders/1DWMGqdY_Yc0Tyd_aI8NtLNgZ3Fo0XcLg?usp=sharing
-2. deepinsight/assets/model에 recognition_resnet27.onnx와 yolov8n.onnx를 넣으세요
+2. deepinsight/assets/model에 recognition_resnet27.onnx와 yolov8n_face.onnx를 넣으세요
 
 ---
 ## 3. 얼굴 등록 절차
