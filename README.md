@@ -2,20 +2,11 @@
 
 ## 1. 필수 패키지 설치
 
-Ubuntu22.04 PC에서 아래 명령어를 통해 필수 패키지를 설치하세요:
-
-sudo apt update
-sudo apt install -y \
-    build-essential cmake pkg-config \
-    libjpeg-dev libpng-dev libtiff-dev \
-    libavcodec-dev libavformat-dev libswscale-dev libv4l-dev \
-    libxvidcore-dev libx264-dev libgtk-3-dev libatlas-base-dev gfortran \
-    zlib1g-dev libprotobuf-dev protobuf-compiler \
-    nlohmann-json-dev libomp-dev libpthread-stubs0-dev \
-    alsa-utils \
-    python3 python3-pip python3-pyqt5 libgl1
-
-Python 패키지 설치: pip install numpy==1.26.4 opencv-python==4.11.0 pyqt5==5.15.11
+Ubuntu22.04 PC에서 아래 명령어를 통해 아래의 필수 패키지를 설치하세요
+   - sudo apt install -y build-essential cmake pkg-config libjpeg-dev libpng-dev libtiff-dev libavcodec-dev libavformat-dev libswscale-dev libv4l-dev
+   - sudo apt install -y libxvidcore-dev libx264-dev libgtk-3-dev libatlas-base-dev gfortran zlib1g-dev libprotobuf-dev protobuf-compiler
+   - sudo apt install -y nlohmann-json-dev libomp-dev libpthread-stubs0-dev alsa-utils python3 python3-pip python3-pyqt5 libgl1
+   - pip install numpy==1.26.4 opencv-python==4.11.0 pyqt5==5.15.11
 
 ---
 ## 2. 기본 설정
