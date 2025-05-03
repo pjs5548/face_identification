@@ -11,7 +11,7 @@ Ubuntu22.04 PC에서 아래 명령어를 통해 아래의 필수 패키지를 �
 ---
 ## 2. 기본 설정
 1. 아래  링크에서 yolov8n_face.onnx와 recognition_resnet27.onnx 파일을 다운 받으세요
-   - https://drive.google.com/drive/folders/1DWMGqdY_Yc0Tyd_aI8NtLNgZ3Fo0XcLg?usp=sharing
+   - https://drive.google.com/drive/folders/1W4VYEcaX9AY_d6K9rPeMDKqOCRie0zwj?usp=drive_link
 2. deepinsight/assets/model에 recognition_resnet27.onnx와 yolov8n_face.onnx를 넣으세요
 
 ---
