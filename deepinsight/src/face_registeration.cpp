@@ -359,7 +359,7 @@ int main(int argc, char* argv[]) {
     Ort::Session det_sess(env, face_detection_model_path.c_str(), options);
     Ort::Session cls_sess(env, face_classification_model_path.c_str(), options);
 
-    // ✅ 클라이언트 수신 소켓 초기화
+    // 클라이언트 수신 소켓 초기화
     int server_fd = socket(AF_INET, SOCK_STREAM, 0);
     if (server_fd < 0) {
         std::cerr << "[ERROR] Failed to create socket\n";
