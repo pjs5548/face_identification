@@ -7,7 +7,6 @@ cat << 'EOF' > README.md
 
 Ubuntu 기반 시스템에서 아래 명령어를 통해 필수 패키지를 설치하세요:
 
-\`\`\`bash
 sudo apt update
 sudo apt install -y \\
     build-essential cmake pkg-config \\
@@ -18,13 +17,10 @@ sudo apt install -y \\
     nlohmann-json-dev libomp-dev libpthread-stubs0-dev \\
     alsa-utils \\
     python3 python3-pip python3-pyqt5 libgl1
-\`\`\`
 
 Python 패키지 설치:
 
-\`\`\`bash
 pip install numpy==1.26.4 opencv-python==4.11.0 pyqt5==5.15.11
-\`\`\`
 
 ---
 ## 2. 기본 설정
@@ -36,9 +32,7 @@ pip install numpy==1.26.4 opencv-python==4.11.0 pyqt5==5.15.11
 
 1. \`python\` 폴더로 이동 후 다음 명령어 실행:
 
-    \`\`\`bash
     python3 gui.py --port xxxx
-    \`\`\`
 
     - \`xxxx\`는 9000~9999 사이의 포트 번호 (예: \`9100\`)
 
@@ -61,10 +55,7 @@ pip install numpy==1.26.4 opencv-python==4.11.0 pyqt5==5.15.11
 ## 4. 얼굴 인증 절차
 
 1. \`bin\` 폴더로 이동하여 아래 명령어 실행:
-
-    \`\`\`bash
     ./face_identifiaction --cam 0 --port xxxx
-    \`\`\`
 
     - \`--cam\`: 카메라 ID (예: 0)
     - \`--port\`: 9000~9999 사이의 포트 번호
