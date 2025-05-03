@@ -2,27 +2,26 @@
 
 ## 1. 필수 패키지 설치
 
-Ubuntu 기반 시스템에서 아래 명령어를 통해 필수 패키지를 설치하세요:
+Ubuntu22.04 PC에서 아래 명령어를 통해 필수 패키지를 설치하세요:
 
 sudo apt update
-sudo apt install -y \\
-    build-essential cmake pkg-config \\
-    libjpeg-dev libpng-dev libtiff-dev \\
-    libavcodec-dev libavformat-dev libswscale-dev libv4l-dev \\
-    libxvidcore-dev libx264-dev libgtk-3-dev libatlas-base-dev gfortran \\
-    zlib1g-dev libprotobuf-dev protobuf-compiler \\
-    nlohmann-json-dev libomp-dev libpthread-stubs0-dev \\
-    alsa-utils \\
+sudo apt install -y \
+    build-essential cmake pkg-config \
+    libjpeg-dev libpng-dev libtiff-dev \
+    libavcodec-dev libavformat-dev libswscale-dev libv4l-dev \
+    libxvidcore-dev libx264-dev libgtk-3-dev libatlas-base-dev gfortran \
+    zlib1g-dev libprotobuf-dev protobuf-compiler \
+    nlohmann-json-dev libomp-dev libpthread-stubs0-dev \
+    alsa-utils \
     python3 python3-pip python3-pyqt5 libgl1
 
-Python 패키지 설치:
-
-pip install numpy==1.26.4 opencv-python==4.11.0 pyqt5==5.15.11
+Python 패키지 설치: pip install numpy==1.26.4 opencv-python==4.11.0 pyqt5==5.15.11
 
 ---
 ## 2. 기본 설정
-1. 주어진 링크에서 recognition_resnet27.onnx 파일을 다운 받으세요
-2. deepinsight/assets/model에 recognition_resnet27.onnx 를 다운 받아서 ㅓ흐세요
+1. 아래  링크에서 yolov8n.onnx와 recognition_resnet27.onnx 파일을 다운 받으세요
+   - https://drive.google.com/drive/folders/1DWMGqdY_Yc0Tyd_aI8NtLNgZ3Fo0XcLg?usp=sharing
+2. deepinsight/assets/model에 recognition_resnet27.onnx와 yolov8n.onnx를 넣으세요
 
 ---
 ## 3. 얼굴 등록 절차
@@ -63,6 +62,6 @@ pip install numpy==1.26.4 opencv-python==4.11.0 pyqt5==5.15.11
 
 5. l 키를 누르면 도어락이 다시 잠기고 인증 정보가 초기화됩니다.
 
-6. 종료하려면 l 키 누르고 Ctrl + C를 입력하세요.
+6. 종료하려면 imshow 창의 x 키를 누르세요
 
 ---
