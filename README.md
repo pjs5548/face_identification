@@ -31,9 +31,9 @@ Ubuntu22.04 PC에서 아래 명령어를 통해 아래의 필수 패키지를 �
 
 5. Remove All 버튼을 클릭하면 모든 .raw 파일이 삭제됩니다.
 
-6. 얼굴을 등록하려면 Registeration 버튼 클릭 → 이니셜 입력 → 확인 → 10초 대기 후 바운딩 박스가 표시됩니다.
+6. 얼굴을 등록하려면 Registeration 버튼 클릭 → 이니셜 입력 → 확인 → 10초 대기 후 등록이 시작됩니다.
 
-7. 등록 완료 후 GUI 창 우측 상단 X를 클릭하여 종료합니다.
+7. 등록이 100% 완료 되면 Face Registeration Manager창의 X 버튼을 클릭하여 종료합니다.
 
 8. 등록된 얼굴 임베딩은 assets/face_information 폴더에 이니셜.raw 파일로 저장됩니다.
 
