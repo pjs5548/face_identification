@@ -1,6 +1,3 @@
-# face_identification
-face_identification_repository
-cat << 'EOF' > README.md
 # Face Identification System
 
 ## 1. 필수 패키지 설치
