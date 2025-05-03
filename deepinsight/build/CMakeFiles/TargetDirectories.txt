@@ -1,0 +1,4 @@
+/home/jspark/work/deepinsight/build/CMakeFiles/face_identification.dir
+/home/jspark/work/deepinsight/build/CMakeFiles/face_registeration.dir
+/home/jspark/work/deepinsight/build/CMakeFiles/edit_cache.dir
+/home/jspark/work/deepinsight/build/CMakeFiles/rebuild_cache.dir
